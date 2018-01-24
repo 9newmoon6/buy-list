@@ -1,0 +1,105 @@
+body{
+    background-color: lightgray ;
+    font-family: "Calibri";
+    font-size: medium;
+}
+.bl-search{
+    width: 100%
+}
+
+.bl-background{
+    min-width: 400px;
+    padding: 100px;
+}
+
+.bl-list {
+    width: 65%;
+    padding: 1%;
+    margin: 1%;
+    float: left;
+    background: white;
+    margin-bottom: 10px;
+    border-radius: 4px;
+}
+
+.bl-bought {
+    padding: 1%;
+    margin: 1%;
+    width: 25%;
+    float: right;
+    background: white;
+    border-radius: 4px;
+    font-size: large;
+}
+
+.bl-amount-remain {
+    padding: 2px;
+    margin: 2px;
+    background: orange;
+    color: white;
+    font-size: x-small;
+    border-radius: 500rem;
+    text-align: center;
+}
+
+.bl-product{
+    width: 30%;
+    padding: 5px ;
+    float:left;
+}
+
+.bl-count{
+    width: 30%;
+    padding: 5px ;
+    float: right;
+    float:left;
+}
+
+.bl-buttons{
+    width: 30%
+    padding: 5px ;
+    float: right;
+}
+/*Кнопки*/
+.bl-add {
+    background: royalblue;
+    color: whitesmoke;
+}
+
+.bl-label {
+    padding: 5px;
+    margin: 5px;
+    background: gainsboro;
+    border-radius: 4px;
+    color: black;
+    font-size: x-small;
+}
+
+.bl-plus {
+    background: #04a613;
+    border-radius: 100%;
+    color: whitesmoke;
+}
+
+.bl-minus {
+    background: lightcoral;
+    border-radius: 100%;
+    color: whitesmoke;
+    box-shadow: brown;
+}
+
+.bl-button-bought{
+    padding: 10px 20px;
+    background: whitesmoke;
+    border-radius: 7%;
+    color: gray;
+    box-shadow: black;
+    font-size: x-small;
+}
+
+.bl-button-x{
+    padding: 10px 10px;
+    background: crimson;
+    border-radius: 7%;
+    color: whitesmoke;
+}
