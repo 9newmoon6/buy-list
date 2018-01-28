@@ -1,102 +1,153 @@
 body {
-    margin-top: 5%;
+    margin-top: 100px;
     background-color: lightgray;
 }
 .bl-background {
-    padding: 20px;
+
 }
 .container {
-    background: white;
     width: 100%;
     min-width: 400px;
-    /* margin:auto;*/
+    background: white;
 }
 .left-column {
-    background: white;
     width: 60%;
-    float: left;
+    min-width: 400px;
     margin: 15px;
+    float: left;
+    background: white;
     border-radius: 5px;
-    box-shadow: 0 3px 8px rgba(0,0,0,.20);
+    box-shadow: 1px 1px 2px 2px  rgba(0,0,0,.15);
 }
 .right-column {
-    background-color: white;
-    width: 300px;
-    float: left;
+    min-width: 400px;
     margin: 15px;
+    float: left;
+    background-color: white;
     border-radius: 5px;
-    box-shadow: 0 2px 5px rgba(0,0,0,.25);
+    box-shadow: 1px 1px 2px 2px rgba(0,0,0,.15);
 }
 .search{
     background-color: white;
-    padding: 5px;
     border-radius: 5px;
+}
+.form{
+    width: 100%;
+    margin: 10px;
+}
+input{
+    padding: 10px;
+    border: 1px solid lightgrey;
+    border-right: none;
+    outline: none;
+    border-bottom-left-radius: 4px;
+    border-top-left-radius: 4px;
 }
 .bl-row {
     width: 100%;
     height: 50px;
 }
-
 .bl-product {
     width: 30%;
-    float: left;
+    padding-left: 10px;
     line-height: 50px;
-}
-
-.bl-count {
-    width: 30%;
     float: left;
 }
-.bl-buttons {
-    width: 40%;
-    float: left;
-}
-
-.bl-list {
-    /*  margin-bottom: 10px;*/
-}
-.bl-bought {
-    border-bottom: 1px solid grey;
-    /*  margin-bottom: 10px;*/
-}
-.bl-row {
-    background-color: white;
-    border-top: 1px solid grey;
-    border-bottom-left-radius: 5px;
-    border-bottom-right-radius: 5px;
+.bl-titels {
+    border-bottom: 1px solid lightgrey;
 }
 .bl-title{
     padding: 14px;
-    font-size: 14px;
     font-family: "Lato", "Helvetica Neue", "Arial", "Helvetica", sans-serif;
+    font-size: 14px;
     font-weight: 700;
 }
-.bl-amount-remain{
-    background: orange;
-    border-radius: 50%;
+.bl-bought{
+    margin: 2px;
+    padding: 10px;
+    border-bottom: 1px solid lightgrey;
 }
+.bl-row {
+    border-top: 1px solid lightgray;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background-color: white;
+}
+.bl-amount-remain{
+    padding: 3px 6px;
+    border-radius: 50%;
+    font-weight: bold;
+    color: white;
+    background: orange;
+}
+
 /*Кнопки*/
 .bl-add{
+    width: 100px;
+    padding: 10px;
+    position: absolute;
+    border: 1px solid lightgrey;
+    border-left: none;
+    outline: none;
+    border-bottom-right-radius: 4px;
+    border-top-right-radius: 4px;
     background: royalblue;
-    /*border-radius*/
+    color: white;
+    box-shadow: inset 0 0 2px rgba(0,0,0,.2);
 }
 .bl-label {
-    background: gainsboro;
-    padding: 3px 6px;
-    margin: 1px;
-    font-size: 10px;
-    color: black;
+    margin: 1px;padding: 5px 10px;
     border-radius: 5px;
+    font-size: 10px;
+    background: gainsboro;
+    color: black;
+}
+.bl-count {
+    width: 30%;
+    margin: 10px;
+    float: left;
 }
 .bl-plus {
-    background: #04a613;
+    padding: 5px 10px;
     border-radius: 50%;
+    font-weight: bold;
+    color: white;
+    background: #04a613;
+    box-shadow: inset 0 0 2px rgba(0,0,0,.2);
 }
 .bl-minus {
-    background: crimson;
+    padding: 5px 10px;
     border-radius: 50%;
+    font-weight: bold;
+    color: white;
+    background: crimson;
+    box-shadow: inset 0 0 2px rgba(0,0,0,.2);
+}
+.bl-buttons {
+    margin: 10px;
+    float: right;
 }
 .bl-button-delete{
+    width: 30px;
+    height: 30px;
+    margin-right: 5px;
+    border-radius: 3px;
+    border: 1px solid lightgrey;
+    font-weight: bold;
+    font-size: 14px;
     background: #df1724;
-    border-radius: 25%;
+    color: white;
+    box-shadow: inset 0 2px 2px 0 rgba(0,0,0,.25);
+}
+.bl-button-bought{
+    width: 80px;
+    height: 30px;
+    margin: 2px;
+    border: 1px solid lightgrey;
+    border-radius: 3px;
+    font-weight: bold;
+    font-size: 10px;
+    background: whitesmoke;
+    color: #828282;
+    box-shadow: inset 0 0 3px rgba(0,0,0,.3);
 }
